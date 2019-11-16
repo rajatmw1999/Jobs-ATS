@@ -66,7 +66,7 @@ body{
 .style-stats{
   background-color: white;
   width: 100%;
-  height: 13rem;
+  height: auto;
   margin-top: 4rem;
   text-align: center;
   font-weight: bold;
@@ -74,6 +74,15 @@ body{
 
 .stats{
   margin-top: 2rem;
+  border-style: solid;
+  border-color: silver;
+  border-width: 0.1px;
+  padding: 2rem;
+}
+
+.style-stats h1{
+  color:green;
+  font-weight: 800;
 }
 
 .fa-award{
@@ -92,6 +101,100 @@ body{
   border-color: black;
   background-color: white;
 }
+
+.working-explained{
+  text-align: left;
+}
+
+.working-explained-cons{
+  text-align: left;
+}
+
+.working-explained hr{
+border-width: 10px;
+  border-color: lightgreen;
+  box-shadow: 4px 2px 4px darkgreen;
+  border-radius: 6;
+  margin-bottom: 0;
+}
+
+.circle{
+  padding: 0px;
+  margin: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  z-index: 1;
+  position: sticky;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.working-explained-cons hr{
+border-width: 10px;
+  border-color: lightblue;
+  box-shadow: 4px 2px 4px blue;
+  border-radius: 6;
+  margin-bottom: 0;
+}
+
+.circle-cons{
+  padding: 0px;
+  margin: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  z-index: 1;
+  position: sticky;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+#testimonials {
+  background-color: black;
+  color:white;
+  text-align: center;
+
+  font-family: "Montserrat";
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonial a{
+  color:black;
+}
+
+#testimonials hr{
+  margin-left: 50px;
+  margin-right: 50px;
+  border-color:white;
+}
+
+.socials{
+  text-align: left;
+}
+
+.socials a{
+  display: block;
+  color: grey;
+}
+
+.feedback a{
+  text-align: right;
+  display: block;
+  color: grey;
+}
+
+
+
 
 
 

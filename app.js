@@ -22,8 +22,8 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + "/public"));
-//mongoose.connect('mongodb://localhost:27017/jobportal');
-mongoose.connect("mongodb+srv://rajat-admin:rajat1999@cluster0-nbxxl.mongodb.net/jobportal",{useNewUrlParser: true});
+mongoose.connect('mongodb://localhost:27017/jobportal');
+//mongoose.connect("mongodb+srv://rajat-admin:rajat1999@cluster0-nbxxl.mongodb.net/jobportal",{useNewUrlParser: true});
 
 app.use(methodOverride("_method"));
 app.use(flash());
