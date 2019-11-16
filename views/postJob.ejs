@@ -1,0 +1,12 @@
+<%- include('./partials/header.ejs') -%>
+<br><br><br><br>
+<form class="" action="/postJob" method="post">
+<input type="text" name="jobPost[title]" placeholder="Title of the job" value="">
+<input type="text" name="jobPost[skills]" placeholder="Enter skills seperated by ," value="">
+<input type="number" name="jobPost[startExperience]" placeholder="Minimum years of experience" value="">
+<input type="number" name="jobPost[endExperience]" placeholder="Maximum years of experience" value="">
+<input type="number" name="jobPost[salary]" placeholder="Salary in Rs." value="">
+<button type="submit" name="jobPost[button]">Post</button>
+</form>
+
+<%- include('./partials/footer.ejs') -%>
